@@ -19,7 +19,7 @@ dwm_network () {
     if [ "$IDENTIFIER" = "unicode" ]; then
         printf "🌐 %s %s | %s" "$CONNAME" "$PRIVATE" "$PUBLIC"
     else
-        printf "NET %s %s | %s" "$CONNAME" "$PRIVATE" "$PUBLIC"
+        printf "NET %s [%s|%s]" "$CONNAME" "$PRIVATE" "$PUBLIC"
     fi
     printf "%s\n" "$SEP2"
 }
