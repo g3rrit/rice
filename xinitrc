@@ -2,8 +2,10 @@
 setxkbmap gb
 
 # statusbar
-/home/pear/rice/dwm-bar/dwm_bar.sh &
+# /home/pear/rice/dwm-bar/dwm_bar.sh &
+
+xrdb -merge /home/pear/.Xresources & 
 
 # start dwm
-exec dwm
+exec i3
 
